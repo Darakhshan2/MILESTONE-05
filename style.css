@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 40px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: 900;
+    color:rgb(49, 52, 58);
+    margin-top: 9px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-sec{
+    border: 1px solid black;
+    width:800px;
+    height: 90vh;
+    margin-left:280px;
+    padding: 10px;
+    background: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.First-input{
+    padding: 4px;
+    width: fit-content;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+.second-input{
+    padding: 4px;
+    width: fit-content;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+.third-input{
+    padding: 3px;
+    width: full;
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top: 40px;
+}
+.third-input .text-input{
+    width:600px;
+    height: 70px;
+    margin-left: 3px;
+
+}
+label{
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+.text-input{
+    height: 30px;
+    border-radius: 12px;
+    width: 250px;
+    margin-bottom:5px ;
+    padding: 3px;
+    margin-left: 3px;
+}
+.fourth{
+    padding: 3px;
+    width: 600px;
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top: 40px;
+}
+.fourth #education-input{
+    width: 500px;
+    height: 50px;
+}
+.fifth{
+    padding: 3px;
+    width: full;
+    /* border: 1px solid black; */
+    height: fit-content;
+    margin-top:40px ;
+}
+.fifth .skills-input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#button{
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+}
+.github{
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+
+#resume-output {
+    margin-top: 80px;
+    height: fit-content;
+    width: 800px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+header{
+    height: 95px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+h1{ 
+    font-weight: 600;
+    font-style: italic;
+}
+h2{
+    margin-left: 10px;
+}
+header p{
+     margin-top: 8px;
+}
+
+header p a {
+    text-decoration: none;
+}
+
+section{
+    font-weight: 100;
+    font-style: oblique;
+}
+.main-obj p{
+    padding: 10px 35px;
+}
+
+#personal-info {
+    margin-top: 10px;
+}
+
+.info-item{
+    margin: 10px 35px;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.skills-input{
+    margin: 20px 35px;
+}
+.paragraph{
+    margin-left: 10px;
+}
+
+.footer h4{
+    margin-top: 2px;
+    text-align: center;
+    background-color: beige;
+    font-weight: 100;
+    height: 20px;
+}
+#download-pdf{
+    cursor: pointer;
+    padding: 6px;
+    height: max-content;
+    margin-top: 30px;
+}
+.shareable-link{
+    text-align: center;
+}
+.shareable-link h3{
+    height: auto;
+    font-weight: 500;
+}
